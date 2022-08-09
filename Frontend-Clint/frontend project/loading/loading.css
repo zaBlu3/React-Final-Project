@@ -1,0 +1,14 @@
+.load{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    cursor:wait;
+    
+}
+.load span{
+align-self: center;
+letter-spacing: 40px;
+}

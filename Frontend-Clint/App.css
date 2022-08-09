@@ -1,0 +1,245 @@
+.member {
+	background-color: #3c3f44;
+	width: 30rem;
+	padding: 0.5rem;
+	border: 1px solid black;
+	margin: 1rem;
+}
+.user {
+	background-color: #3c3f44;
+	width: 55rem;
+	padding: 0.5rem;
+	border: 1px solid black;
+	margin: 1rem;
+}
+
+.movies,
+.users,
+.members {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.members,
+.addMovie {
+	border: 3px solid black;
+	padding-top: 1em;
+}
+.movie {
+	background-color: #3c3f44;
+	width: 17rem;
+	padding: 1rem 1rem 0rem 1rem;
+	border: 1px solid black;
+	margin: 1rem;
+}
+.moviesWatchedByMembers {
+	margin-top: 0.5rem;
+	margin-right: 0;
+	padding: 0;
+}
+.moviesWatchedByMembers ul {
+	padding-left: 0;
+}
+.subscribeToMovie {
+	margin-top: 0.5rem;
+	margin-bottom: 00.5rem;
+}
+.memberMovies {
+	border: 3px solid black;
+	margin-top: 2em;
+	padding: 1rem;
+}
+
+input {
+	width: fit-content;
+}
+.active {
+	color: rgb(108, 212, 139) !important;
+	text-decoration: overline !important;
+}
+.form {
+	padding-top: 3rem;
+	font-size: calc(10px + 2vmin);
+}
+.form h1 {
+	margin-bottom: 5rem;
+	font-size: 4rem;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: bold;
+}
+.searchBar input {
+	background-color: transparent;
+	border-radius: 50px;
+	border: 2px solid rgb(108, 212, 139);
+	color: rgb(108, 212, 139);
+	padding: 0.5rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+.searchBar::placeholder {
+	color: rgb(108, 212, 139);
+}
+.searchBar button {
+	background-color: rgb(108, 212, 139);
+	color: white;
+	border: unset;
+}
+
+/*
+label {
+	display: inline-block;
+	text-align: right; 
+}
+input {
+	margin: 10px;
+	padding: 10px;
+	width: 50%;
+}
+div {
+	margin-top: 20px;
+}
+button {
+	background-color: #ffe699;
+	border: 1px solid gray;
+	height: 40px;
+	width: 100px;
+	cursor: pointer;
+}
+.main {
+	display: flex;
+}
+.users {
+	border: 2px solid black;
+	border-radius: 50px;
+	padding: 20px;
+	flex-basis: 50%;
+	margin: 20px;
+	
+}
+.search {
+	display: flex;
+	width: 100%;
+	margin-bottom: 50px;
+	justify-content: space-between;
+}
+.search input {
+	margin-left: 20px;
+}
+.user {
+	width: 500px;
+	margin: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 20px;
+}
+.user span {
+	margin-left: 32px;
+}
+
+.selected {
+	background-color: #f8cbad;
+}
+.completed {
+	border: 2px solid greenyellow;
+}
+.not-completed {
+	border: 2px solid red;
+}
+
+.address {
+	display: grid;
+	grid-template-columns: max-content max-content;
+	padding: 20px;
+	margin: 5px;
+	background-color: #f2f2f2;
+	border-radius: 25px;
+	border: 2px solid black;
+}
+.address input {
+	background-color: inherit;
+	font-family: "Roboto", sans-serif;
+	width: 50%;
+	
+}
+.buttons {
+	display: flex;
+	justify-content: end;
+	margin-bottom: 5px;
+}
+.todos-posts {
+	min-width: 500px;
+}
+.todos-posts-border {
+	border: 3px solid black;
+    padding:  10px
+}
+.titlePostOrTodo {
+	margin-top: 50px;
+	margin-bottom: 10px;
+	min-width: 500px;
+	display: flex;
+	justify-content: space-between;
+}
+.todo {
+	margin-top: 0;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid purple;
+	display: flex;
+	justify-content: space-between;
+}
+.todo div {
+	width: fit-content;
+	margin-top: unset;
+}
+.todo button {
+	margin-top: 40px;
+	width: 200px;
+	height: 30px;
+}
+
+.todo span {
+	text-transform: capitalize;
+}
+
+
+.post {
+	margin: 20px;
+	padding: 10px;
+	border: 3px solid purple;
+}
+.post tr td:first-child {
+	text-align: left;
+	width: fit-content;
+	padding: 20px 20px 20px;
+	width: 1%;
+	white-space: nowrap;
+}
+
+
+.addContainer {
+	margin-top: 5px;
+	border: 3px solid black;
+	padding: 20px 20px 20px 20px;
+}
+.addContainer label {
+	padding: 30px 30px 30px;
+	text-align: left;
+	width: 80%;
+}
+.addContainer input {
+	margin-left: 50px;
+}
+.addContainer button {
+	margin: 5px;
+}
+
+.error {
+	padding: 100px;
+	background-color: tomato;
+	font-size: 3em;
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 0;
+}
+
+*/
